@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Examen_Carlos_Akel/1.0.0": {
+        "runtime": {
+          "Examen_Carlos_Akel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Examen_Carlos_Akel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
