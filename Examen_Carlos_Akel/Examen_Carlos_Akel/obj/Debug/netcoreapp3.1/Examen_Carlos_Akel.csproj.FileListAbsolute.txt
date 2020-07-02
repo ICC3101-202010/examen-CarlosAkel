@@ -11,3 +11,16 @@ C:\Users\carlo\source\repos\Examen_Carlos_Akel\Examen_Carlos_Akel\obj\Debug\netc
 C:\Users\carlo\source\repos\Examen_Carlos_Akel\Examen_Carlos_Akel\obj\Debug\netcoreapp3.1\Examen_Carlos_Akel.dll
 C:\Users\carlo\source\repos\Examen_Carlos_Akel\Examen_Carlos_Akel\obj\Debug\netcoreapp3.1\Examen_Carlos_Akel.pdb
 C:\Users\carlo\source\repos\Examen_Carlos_Akel\Examen_Carlos_Akel\obj\Debug\netcoreapp3.1\Examen_Carlos_Akel.genruntimeconfig.cache
+C:\Users\carlo\source\repos\ex\examen-CarlosAkel\Examen_Carlos_Akel\Examen_Carlos_Akel\bin\Debug\netcoreapp3.1\Examen_Carlos_Akel.exe
+C:\Users\carlo\source\repos\ex\examen-CarlosAkel\Examen_Carlos_Akel\Examen_Carlos_Akel\bin\Debug\netcoreapp3.1\Examen_Carlos_Akel.deps.json
+C:\Users\carlo\source\repos\ex\examen-CarlosAkel\Examen_Carlos_Akel\Examen_Carlos_Akel\bin\Debug\netcoreapp3.1\Examen_Carlos_Akel.runtimeconfig.json
+C:\Users\carlo\source\repos\ex\examen-CarlosAkel\Examen_Carlos_Akel\Examen_Carlos_Akel\bin\Debug\netcoreapp3.1\Examen_Carlos_Akel.runtimeconfig.dev.json
+C:\Users\carlo\source\repos\ex\examen-CarlosAkel\Examen_Carlos_Akel\Examen_Carlos_Akel\bin\Debug\netcoreapp3.1\Examen_Carlos_Akel.dll
+C:\Users\carlo\source\repos\ex\examen-CarlosAkel\Examen_Carlos_Akel\Examen_Carlos_Akel\bin\Debug\netcoreapp3.1\Examen_Carlos_Akel.pdb
+C:\Users\carlo\source\repos\ex\examen-CarlosAkel\Examen_Carlos_Akel\Examen_Carlos_Akel\obj\Debug\netcoreapp3.1\Examen_Carlos_Akel.csprojAssemblyReference.cache
+C:\Users\carlo\source\repos\ex\examen-CarlosAkel\Examen_Carlos_Akel\Examen_Carlos_Akel\obj\Debug\netcoreapp3.1\Examen_Carlos_Akel.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\ex\examen-CarlosAkel\Examen_Carlos_Akel\Examen_Carlos_Akel\obj\Debug\netcoreapp3.1\Examen_Carlos_Akel.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\ex\examen-CarlosAkel\Examen_Carlos_Akel\Examen_Carlos_Akel\obj\Debug\netcoreapp3.1\Examen_Carlos_Akel.AssemblyInfo.cs
+C:\Users\carlo\source\repos\ex\examen-CarlosAkel\Examen_Carlos_Akel\Examen_Carlos_Akel\obj\Debug\netcoreapp3.1\Examen_Carlos_Akel.dll
+C:\Users\carlo\source\repos\ex\examen-CarlosAkel\Examen_Carlos_Akel\Examen_Carlos_Akel\obj\Debug\netcoreapp3.1\Examen_Carlos_Akel.pdb
+C:\Users\carlo\source\repos\ex\examen-CarlosAkel\Examen_Carlos_Akel\Examen_Carlos_Akel\obj\Debug\netcoreapp3.1\Examen_Carlos_Akel.genruntimeconfig.cache

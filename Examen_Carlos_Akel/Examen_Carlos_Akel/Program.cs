@@ -6,9 +6,10 @@ namespace Examen_Carlos_Akel
     {
         static void Main(string[] args)
         {
-            Person p = new Person("Carlos", 20, "Chileno", 20000);
+            Player p = new Player("Carlos", 20, "Chileno", 20000,20,20,20,false,true,true);
 
             Console.WriteLine(p.Info());
+            Console.WriteLine(p.get_atack());
         }
     }
 }

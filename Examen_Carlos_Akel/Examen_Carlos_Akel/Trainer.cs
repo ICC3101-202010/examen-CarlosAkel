@@ -16,10 +16,6 @@ namespace Examen_Carlos_Akel
             this.TacticPoints = TacticPoints;
         }
 
-        public void Posicionar_jugadore(Player p)
-        {
-            
-        }
 
         public void Change_Player(Player p,Player p2)//el primero es el jugador que quieres cambier y el segundo es el jugador el cual va ser cambiado si no se encuentra en cancha
         {
