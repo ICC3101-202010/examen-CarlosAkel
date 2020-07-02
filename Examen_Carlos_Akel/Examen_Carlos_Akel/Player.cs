@@ -48,6 +48,18 @@ namespace Examen_Carlos_Akel
         {
             Condition = t;
         }
+        public int get_number()
+        {
+            return Number;
+        }
+        public int get_atack()
+        {
+            return Atack;
+        }
+        public int get_defence()
+        {
+            return Defence;
+        }
 
     }
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlo\\source\\repos\\Examen_Carlos_Akel\\Examen_Carlos_Akel\\Examen_Carlos_Akel.csproj",
+      "projectUniqueName": "C:\\Users\\carlo\\source\\repos\\ex\\examen-CarlosAkel\\Examen_Carlos_Akel\\Examen_Carlos_Akel\\Examen_Carlos_Akel.csproj",
       "projectName": "Examen_Carlos_Akel",
-      "projectPath": "C:\\Users\\carlo\\source\\repos\\Examen_Carlos_Akel\\Examen_Carlos_Akel\\Examen_Carlos_Akel.csproj",
+      "projectPath": "C:\\Users\\carlo\\source\\repos\\ex\\examen-CarlosAkel\\Examen_Carlos_Akel\\Examen_Carlos_Akel\\Examen_Carlos_Akel.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlo\\source\\repos\\Examen_Carlos_Akel\\Examen_Carlos_Akel\\obj\\",
+      "outputPath": "C:\\Users\\carlo\\source\\repos\\ex\\examen-CarlosAkel\\Examen_Carlos_Akel\\Examen_Carlos_Akel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Examen_Carlos_Akel
@@ -20,6 +21,8 @@ namespace Examen_Carlos_Akel
             //this.League_or_National = League_or_National;
         }
 
+
+
         public string play_match()
         {
             if(Teams.Item1.get_league_or_national() == Teams.Item1.get_league_or_national())
@@ -32,20 +35,80 @@ namespace Examen_Carlos_Akel
             }
 
         }
-        public void Check_match_status()
+        public void OnMatch_Status(object source, EventArgs e)
         {
             if(Teams.Item1.get_t() != null)
             {
 
                 Console.WriteLine("Se efectuara un cambio");
-                Console.WriteLine("Ingrese el nombre un jugador que no se encuentre en la cancha");
+                Console.WriteLine("Ingrese el nombre un jugador que se encuentre en la banca");
+                string name = Console.ReadLine();
+                bool cond = true;
+                if(Teams.Item1.get_t().get_en_cancha() == true)
+                {
+                    foreach (Player play in Teams.Item1.get_p())
+                    {
+                        if (play.get_name().ToUpper() == name.ToUpper() && play.get_en_cancha() == false && play.get_arquero() == false)
+                        {
+                            Teams.Item1.get_trainer2().Change_Player(Teams.Item1.get_t(), play);
+                            cond = false;
+                        }
+                    }
+
+                    
+                }
+                else if (Teams.Item1.get_t().get_arquero() == true)
+                {
+                    foreach (Player play in Teams.Item1.get_p())
+                    {
+                        if (play.get_name().ToUpper() == name.ToUpper() && play.get_arquero() == false && play.get_en_cancha() == false)
+                        {
+                            Teams.Item1.get_trainer2().Change_Player(Teams.Item1.get_t(), play);
+                            cond = false;
+                        }
+                    }
+                }
+                else if(cond == true)
+                {
+                    Console.WriteLine("No existe o no cumple con las condiciones el jugador ingresado chequea el status del partido nuevamente");
+                }
+
 
             }
             else if(Teams.Item1.get_t() != null)
             {
-
                 Console.WriteLine("Se efectuara un cambio");
-                Console.WriteLine("Ingrese el nombre un jugador que no se encuentre en la cancha");
+                Console.WriteLine("Ingrese el nombre un jugador que se encuentre en la banca");
+                string name = Console.ReadLine();
+                bool cond2 = true;
+                if (Teams.Item2.get_t().get_en_cancha() == true)
+                {
+                    foreach (Player play in Teams.Item2.get_p())
+                    {
+                        if (play.get_name().ToUpper() == name.ToUpper() && play.get_en_cancha() == false && play.get_arquero() == false)
+                        {
+                            Teams.Item2.get_trainer2().Change_Player(Teams.Item2.get_t(), play);
+                            cond2 = false;
+                        }
+                    }
+
+
+                }
+                else if (Teams.Item2.get_t().get_arquero() == true)
+                {
+                    foreach (Player play in Teams.Item2.get_p())
+                    {
+                        if (play.get_name().ToUpper() == name.ToUpper() && play.get_arquero() == false && play.get_en_cancha() == false)
+                        {
+                            Teams.Item2.get_trainer2().Change_Player(Teams.Item2.get_t(), play);
+                            cond2 = false;
+                        }
+                    }
+                }
+                else if (cond2 == true)
+                {
+                    Console.WriteLine("No existe o no cumple con las condiciones el jugador ingresado chequea el status del partido nuevamente");
+                }
             }
             
         }
