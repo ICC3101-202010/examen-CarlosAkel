@@ -11,19 +11,7 @@ namespace Examen_Carlos_Akel
         private Doctor doctor { get; set; }
         private Trainer trainer { get; set; }
         private bool League_or_National { get; set; }// si es verdadero es de liga y si es falso es Nacional
-        public delegate void statusEventHandler(object source, EventArgs a);
-        public event statusEventHandler Match_Status;//se genera el metodo para checkear el status del partido
-        protected virtual void OnMatch_Status()
-        {
-            if(Match_Status != null)
-            {
-                Match_Status(this, new EventArgs());//se genera el eventoo
-            }
-        }
-        public void test_status_evente()
-        {
-            OnMatch_Status();//probar el evento
-        }
+
 
 
         public Team(List<Player> players,Doctor doctor,Trainer trainer, bool League_or_National)
